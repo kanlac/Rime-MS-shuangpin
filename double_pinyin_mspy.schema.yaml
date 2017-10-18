@@ -6,7 +6,7 @@ schema:
   name: 微软双拼
   version: "1.0"
   author:
-    - Dean
+    - serfusE
   description: |
     基于 @佛振 自然码双拼修改的微软双拼方案
 
