@@ -8,7 +8,7 @@ schema:
   author:
     - Dean
   description: |
-    基于 @佛振 自然码双拼修改的微软双拼方案。
+    基于 @佛振 自然码双拼修改的微软双拼方案
 
 switches:
   - name: ascii_mode
