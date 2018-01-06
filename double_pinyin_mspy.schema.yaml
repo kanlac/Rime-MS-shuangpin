@@ -6,9 +6,9 @@ schema:
   name: 微软双拼
   version: "1.0"
   author:
-    - serfusE
+    - Dean
   description: |
-    基于 @佛振 自然码双拼修改的微软双拼方案
+    基于 @佛振 自然码双拼修改的微软双拼方案。
 
 switches:
   - name: ascii_mode
@@ -52,7 +52,7 @@ speller:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
-    - xform/^([aoe])(ng)?$/$1$1$2/
+    #- xform/^([aoe])(ng)?$/$1$1$2/
     - xform/^([aoe].*)$/O$1/
     - xform/iu$/Q/
     - xform/[iu]a$/W/
