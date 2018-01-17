@@ -53,7 +53,7 @@ speller:
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     #- xform/^([aoe])(ng)?$/$1$1$2/
-    - xform/^([aoe].*)$/O$1/
+    - xform/^([oae].*)$/O$1/
     - xform/iu$/Q/
     - xform/[iu]a$/W/
     - xform/er|[uv]an$/R/
